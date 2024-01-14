@@ -3,7 +3,7 @@ import { useForm, Controller } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
 import * as Yup from 'yup';
 import { Link } from 'react-router-dom';
-import './styles/styles.css';
+import '../styles/styles.css';
 
 const RegistrationPage = () => {
   const validationSchema = Yup.object().shape({

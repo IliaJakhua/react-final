@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import './styles/styles.css';
+import '../styles/styles.css';
 
 function Home() {
   const [isDarkMode, setDarkMode] = useState(false);

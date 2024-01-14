@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import authorPhoto from '../media/Rick.jpg';
-import './styles/styles.css';
+import '../styles/styles.css';
 
 function About() {
   const [isDarkMode, setDarkMode] = useState(false);
