@@ -85,3 +85,19 @@ a.button-link:hover {
 .switch-button.dark-mode {
   background-color: #0056b3; 
 }
+
+
+
+@media (min-width: 600px) {
+  .container {
+    max-width: 600px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+
